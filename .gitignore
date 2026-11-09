@@ -1,0 +1,24 @@
+# Environment variables and secrets (Never push this!)
+.env
+
+# Python cache and compiled bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Virtual environments
+venv/
+.venv/
+ENV/
+env/
+
+# Local runtime logs and temporary outputs
+failed_messages.csv
+
+# IDE / Editor specific configurations
+.vscode/
+.idea/
+*.swp
+*.swo
